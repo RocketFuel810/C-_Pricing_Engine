@@ -46,6 +46,7 @@ The system handles two financial instruments:
 ## 🧪 Usage
 
 ```bash
-g++ q2.cpp -o pricing_engine -std=c++17 -O2
+cd engine
+g++ pricing_engine.cpp -o pricing_engine -std=c++17 -O2
 ./pricing_engine
 
