@@ -115,12 +115,12 @@ DeliveryContract dc(basket,                    // Vector of ValueNotes
 
 ### Compile Command
 ```bash
-g++ -std=c++11 -O2 -o cla cla.cpp -lm
+g++ -std=c++11 -O2 -o pricing_engine pricing_engine.cpp -lm
 ```
 
 ### Run
 ```bash
-./cla
+./pricing_engine
 ```
 
 ## Key Classes and Methods
